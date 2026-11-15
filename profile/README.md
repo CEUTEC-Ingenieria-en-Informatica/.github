@@ -32,14 +32,6 @@ No seguimos el temario de ninguna clase. Aquí se aprende armando cosas.
 
 Antes de participar leé el [código de conducta](https://github.com/CEUTEC-Ingenieria-en-Informatica/.github/blob/main/CODE_OF_CONDUCT.md). Es corto.
 
-## Quién está detrás
-
-El material lo escribe James V ([@Dio77799](https://github.com/Dio77799)), estudiante de Ingeniería en Informática. Cualquiera de la comunidad puede corregirlo y sumar lo suyo con un pull request.
-
-## Sobre el uso de IA
-
-El material se arma con ayuda de IA y la comunidad lo revisa. Cada ejercicio trae pruebas que se corren de verdad y cada enlace se comprueba antes de publicarlo. Si algo no cuadra, avisá en un issue y se corrige.
-
 ## Sobre el logo
 
 El logo es propio: un icono de app con tres mosaicos y, en el cuarto, la curva de la pluma de un editor de diseño. No usa el escudo, el nombre ni los colores oficiales de la universidad. El SVG, el PNG y el script que los dibuja están en [`profile/marca/`](https://github.com/CEUTEC-Ingenieria-en-Informatica/.github/tree/main/profile/marca).
