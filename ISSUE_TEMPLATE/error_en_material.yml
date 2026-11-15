@@ -1,0 +1,36 @@
+name: Error en el material
+description: Algo está mal en una explicación, un ejemplo, un ejercicio, un test o un enlace.
+title: "Error: "
+labels: ["error en material"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por avisar. Con estos datos lo encontramos y lo corregimos rápido.
+        Si es una duda y no un error, usá el formulario "Pregunta".
+  - type: input
+    id: repo_archivo
+    attributes:
+      label: Repo y archivo
+      description: El repo y la ruta del archivo, o el enlace de GitHub a la línea.
+      placeholder: flutter-de-cero-a-app/modulos/03_layout/README.md
+    validations:
+      required: true
+  - type: textarea
+    id: que_esta_mal
+    attributes:
+      label: Qué está mal
+      description: Copiá la parte con el error y contá qué no cuadra.
+    validations:
+      required: true
+  - type: textarea
+    id: como_deberia
+    attributes:
+      label: Cómo debería ser
+      description: Si sabés la corrección, escribila. Si es código, decí cómo lo probaste.
+  - type: input
+    id: version
+    attributes:
+      label: Versión de Flutter o Dart (si aplica)
+      description: Lo que te sale con flutter --version
+      placeholder: Flutter 3.x stable

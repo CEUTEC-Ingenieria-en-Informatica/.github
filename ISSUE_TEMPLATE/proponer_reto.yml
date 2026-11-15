@@ -1,0 +1,43 @@
+name: Proponer reto
+description: Una pantalla o mini app para retos-ui-flutter.
+title: "Reto: "
+labels: ["propuesta de reto"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Los retos usan diseños originales. No copiamos pantallas, logos ni marcas de apps reales.
+  - type: input
+    id: nombre
+    attributes:
+      label: Nombre del reto
+      placeholder: Tarjeta de perfil de una barbería inventada
+    validations:
+      required: true
+  - type: dropdown
+    id: nivel
+    attributes:
+      label: Nivel
+      options:
+        - Principiante
+        - Intermedio
+        - Avanzado
+    validations:
+      required: true
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Qué se construye
+      description: Qué tiene la pantalla, cómo se comporta y qué widgets se practican.
+    validations:
+      required: true
+  - type: textarea
+    id: diseno
+    attributes:
+      label: Boceto o especificación
+      description: Medidas, colores y tipografía. Podés adjuntar una imagen hecha por vos.
+  - type: textarea
+    id: test
+    attributes:
+      label: Qué debería comprobar el test
+      description: Por ejemplo, que el botón exista, que el texto cambie al tocarlo, que se vea bien en pantalla angosta.
